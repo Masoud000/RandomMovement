@@ -1,7 +1,7 @@
-n = input('Enter the Number of Particles : ');
-L = input('Enter the length of plane : ');
-d = input('Enter the length of steps : ');
-t = input('Enter the time of running : ');
+n = input('Enter the Number of Particles : ');   %the number of particles
+L = input('Enter the length of plane : ');  %size of plate
+d = input('Enter the length of steps : ');  %size of step
+t = input('Enter the time of running : ');  %running time
 xp = zeros(1,n);
 yp = zeros(1,n);
 cs = zeros(1,t);
